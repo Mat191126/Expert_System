@@ -31,13 +31,13 @@
                 <MultipleValue value="red,orange,yellow,green,blue,purple,white,black"/>
             </Selection>
             <Selection value="false">
-                <MultipleValue value="doesn't matter, multicolor"/>
+                <MultipleValue value="doesn't matter"/>
             </Selection>
         </Answer>
     </Rule>
     ...
     <Rule id="country">
-        <Question>From which continent it should be?</Question>
+        <Question>Is origin important??</Question>
         <Answer>
             <Selection value="true">
                 <MultipleValue value="South America,North America,Europe,Africa,Asia,Australia,Antarctica"/>
