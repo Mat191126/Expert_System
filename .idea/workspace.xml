@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70768044-ed2d-40db-81ca-b4d45fc328e8" name="Default Changelist" comment="" />
+    <list default="true" id="70768044-ed2d-40db-81ca-b4d45fc328e8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1bDj64rZYtlduuAsZACxOgq9Ws7" />
   <component name="ProjectViewState">
@@ -49,6 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588173379753</updated>
       <workItem from="1588173381419" duration="690000" />
+      <workItem from="1588231917789" duration="824000" />
     </task>
     <servers />
   </component>
@@ -72,5 +85,9 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1588176813429" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1588231988834">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1588231988834" />
   </component>
 </project>
