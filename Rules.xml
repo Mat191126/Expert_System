@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Rules>
+    <Rule id="money">
+        <Question>Do you have 200 PLN for a mineral?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    ...
+    <Rule id="form">
+        <Question>It would be polished?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="polished"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="natural"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    ...
+    <Rule id="colour">
+        <Question>What colour fit your expectations?</Question>
+        <Answer>
+            <Selection value="true">
+                <MultipleValue value="red,orange,yellow,green,blue,purple,white,black"/>
+            </Selection>
+            <Selection value="false">
+                <MultipleValue value="doesn't matter"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    ...
+    <Rule id="country">
+        <Question>Is origin important??</Question>
+        <Answer>
+            <Selection value="true">
+                <MultipleValue value="South America,North America,Europe,Africa,Asia,Australia,Antarctica"/>
+            </Selection>
+            <Selection value="false">
+                <MultipleValue value="doesn't matter"/>
+            </Selection>
+        </Answer>
+    </Rule>
+</Rules>
