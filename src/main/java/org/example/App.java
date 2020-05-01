@@ -8,5 +8,8 @@ public class App
 {
     public static void main( String[] args ) {
         System.out.println("Welcome to Expert System!");
+        System.out.println("------------------------------");
+        FactParser factParser = new FactParser();
+        factParser.getFactRepository();
     }
 }

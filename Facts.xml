@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Facts>
     <Fact id="amethyst">
-        <Description value="Mineral: Amethyst"/>
+        <Description value="Purple mineral used in Greece as cups"/>
         <Evals>
             <Eval id="form">true</Eval>
             <Eval id="money">false</Eval>
@@ -11,7 +11,7 @@
     </Fact>
     ...
     <Fact id="citrine">
-        <Description value="Mineral: Citrine"/>
+        <Description value="Yellow mineral, kind of quartz"/>
         <Evals>
             <Eval id="form">false</Eval>
             <Eval id="money">false</Eval>
@@ -21,7 +21,7 @@
     </Fact>
     ...
     <Fact id="rift">
-        <Description value="Mineral: Rift"/>
+        <Description value="Transparent rock, kind of quartz"/>
         <Evals>
             <Eval id="form">false</Eval>
             <Eval id="money">false</Eval>
@@ -31,7 +31,7 @@
     </Fact>
     ...
     <Fact id="tourmaline">
-        <Description value="Mineral: tourmaline"/>
+        <Description value="Black mineral, commonly used in magic"/>
         <Evals>
             <Eval id="form">false</Eval>
             <Eval id="money">true</Eval>
@@ -41,7 +41,7 @@
     </Fact>
     ...
     <Fact id="ruby">
-        <Description value="Mineral: Ruby"/>
+        <Description value="Red gem"/>
         <Evals>
             <Eval id="form">true</Eval>
             <Eval id="money">true</Eval>

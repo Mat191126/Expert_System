@@ -1,4 +1,9 @@
 package org.example;
 
-public class RuleParser {
+public class RuleParser extends XMLParser{
+
+
+    public RuleRepository getRuleRepository(){
+        return null;
+    }
 }

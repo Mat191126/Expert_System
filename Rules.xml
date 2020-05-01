@@ -37,7 +37,7 @@
     </Rule>
     ...
     <Rule id="country">
-        <Question>Is origin important??</Question>
+        <Question>Is origin important?</Question>
         <Answer>
             <Selection value="true">
                 <MultipleValue value="South America,North America,Europe,Africa,Asia,Australia,Antarctica"/>

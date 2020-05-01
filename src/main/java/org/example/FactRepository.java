@@ -1,10 +1,13 @@
 package org.example;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class FactRepository implements Container{
-    public String[] facts = {"A", "B", "C"};
+    private List<Fact> facts;
 
     public void addFact(Fact fact){
-
+        this.facts = new ArrayList<>();
     }
 
     /*public Iterator<Fact> getIterator(){
@@ -22,7 +25,7 @@ public class FactRepository implements Container{
         @Override
         public boolean hasNext() {
 
-            if(index < facts.length){
+            if(index < facts.size()){
                 return true;
             }
             return false;
@@ -32,7 +35,7 @@ public class FactRepository implements Container{
         public Object next() {
 
             if(this.hasNext()){
-                return facts[index++];
+                return facts.get(index++);
             }
             return null;
         }
