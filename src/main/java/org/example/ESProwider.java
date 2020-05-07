@@ -9,6 +9,13 @@ public class ESProwider {
         this.ruleParser = ruleParser;
     }
 
+    public void displayFacts() {
+        Iterator<Fact> factIterator = factParser.getFactRepository().getIterator();
+        while (factIterator.hasNext()) {
+            System.out.println(factIterator.next().getDescription());
+        }
+    }
+
     public void collectAnswers(){
 
     }
