@@ -1,17 +1,13 @@
 package org.example;
 
+import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 public class FactParser extends XMLParser{
 
-    private FactRepository factRepository;
-
-    FactParser(){
-        this.factRepository = new FactRepository();
-        createFactRepository();
-    }
+    private FactRepository factRepository = new FactRepository();
 
     public FactRepository getFactRepository() {
         return factRepository;
