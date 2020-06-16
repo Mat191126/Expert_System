@@ -1,6 +1,7 @@
-package org.example;
+package org.example.controller;
 
-import java.util.ArrayList;
+import org.example.controller.Iterator;
+
 import java.util.List;
 
 public class FactIterator<E> implements Iterator<E> {

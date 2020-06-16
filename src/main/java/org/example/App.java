@@ -1,5 +1,8 @@
 package org.example;
 
+import org.example.controller.FactParser;
+import org.example.controller.RuleParser;
+
 /**
  * Hello world!
  *
@@ -16,6 +19,6 @@ public class App
         ruleParser.loadXmlDocument("Rules.xml");
 
         ESProwider esProwider = new ESProwider(factParser, ruleParser);
-        esProwider.displayFactsDescription();
+        esProwider.run();
     }
 }
