@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70768044-ed2d-40db-81ca-b4d45fc328e8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ESProwider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ESProwider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FactParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FactParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RuleParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RuleParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/XMLParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/XMLParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/ESProwider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/ESProwider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/FactParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/FactParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/RuleParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/RuleParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/XMLParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/XMLParser.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +31,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1bDj64rZYtlduuAsZACxOgq9Ws7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,11 +48,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
-      <module name="expertSystem" />
+      <module name="Expert_System(refactored)" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -52,6 +80,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -65,33 +105,89 @@
       <workItem from="1588173381419" duration="690000" />
       <workItem from="1588231917789" duration="6701000" />
       <workItem from="1588325416319" duration="12696000" />
+      <workItem from="1588857144179" duration="5280000" />
+      <workItem from="1589186959775" duration="2629000" />
+      <workItem from="1589360308919" duration="1010000" />
+      <workItem from="1589364785071" duration="599000" />
+      <workItem from="1589381574542" duration="605000" />
+      <workItem from="1590589719284" duration="1432000" />
     </task>
+    <task id="LOCAL-00001" summary="Test commit">
+      <created>1588862645286</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588862645286</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Refactor">
+      <created>1588862721518</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588862721519</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test commit" />
+    <MESSAGE value="Refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="801" y="265" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1588325982568">
+    <state x="700" y="207" width="671" height="685" key="#App" timestamp="1589187478443">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
+    <state x="656" y="178" key="#App/0.0.1920.1044@0.0.1920.1044" timestamp="1588862174875" />
+    <state x="700" y="207" width="671" height="685" key="#App/67.27.1853.1053@67.27.1853.1053" timestamp="1589187478443" />
+    <state x="726" y="310" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1589188066201">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="726" y="310" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1589188066201" />
+    <state x="419" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588862186192">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="419" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1588862186192" />
+    <state x="690" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588858168324">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="690" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1588858168324" />
+    <state x="761" y="236" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1588861585077">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="761" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1588861585077" />
     <state x="801" y="265" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1588325982568" />
-    <state width="1807" height="217" key="GridCell.Tab.0.bottom" timestamp="1588349497489">
+    <state x="768" y="335" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1589187471532">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="217" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1588349497489" />
-    <state width="1807" height="217" key="GridCell.Tab.0.center" timestamp="1588349497487">
+    <state x="768" y="335" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1589187471532" />
+    <state x="0" y="0" width="1920" height="1044" key="CommitChangelistDialog2" timestamp="1588862721027">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="0" y="0" width="1920" height="1044" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1588862721027" />
+    <state width="1807" height="216" key="GridCell.Tab.0.bottom" timestamp="1589202804081">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="217" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1588349497487" />
-    <state width="1807" height="217" key="GridCell.Tab.0.left" timestamp="1588349497486">
+    <state width="1807" height="216" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1589202804081" />
+    <state width="1807" height="216" key="GridCell.Tab.0.center" timestamp="1589202804080">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="217" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1588349497486" />
-    <state width="1807" height="217" key="GridCell.Tab.0.right" timestamp="1588349497488">
+    <state width="1807" height="216" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1589202804080" />
+    <state width="1807" height="216" key="GridCell.Tab.0.left" timestamp="1589202804079">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="217" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1588349497488" />
+    <state width="1807" height="216" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1589202804079" />
+    <state width="1807" height="216" key="GridCell.Tab.0.right" timestamp="1589202804081">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="216" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1589202804081" />
+    <state x="444" y="98" key="SettingsEditor" timestamp="1588862130287">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="444" y="98" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1588862130287" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1588325414578">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
