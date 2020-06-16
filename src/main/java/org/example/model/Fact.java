@@ -32,4 +32,8 @@ public class Fact {
     public String getDescription(){
         return description;
     }
+
+    public String getRockName() {
+        return rockName;
+    }
 }
