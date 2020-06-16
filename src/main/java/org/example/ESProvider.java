@@ -1,39 +1,37 @@
 package org.example;
 
-import org.example.controller.FactParser;
-import org.example.controller.Iterator;
-import org.example.controller.RuleParser;
-import org.example.model.Fact;
+import org.example.controller.*;
+import org.example.model.Question;
 
 public class ESProvider {
-    private FactParser factParser;
-    private RuleParser ruleParser;
+    private FactRepository factRepository;
+    private RuleRepository ruleRepository;
 
     public ESProvider (FactParser factParser, RuleParser ruleParser){
-        this.factParser = factParser;
-        this.ruleParser = ruleParser;
+        this.factRepository = factParser.getFactRepository();
+        this.ruleRepository = ruleParser.getRuleRepository();
     }
 
-    public void displayFactsDescription() {
-        Iterator<Fact> factIterator = factParser.getFactRepository().getIterator();
-        while (factIterator.hasNext()) {
-            System.out.println(factIterator.next().getDescription());
+    private void displayFactsDescription() {
+
+    }
+
+    private void collectAnswers(){
+        Iterator<Question> questionIterator = ruleRepository.getIterator();
+        while (questionIterator.hasNext()){
+            System.out.println(questionIterator.next());
         }
     }
 
-    public void collectAnswers(){
-
-    }
-
-    public boolean getAnswerByQuestion(String questionID){
+    private boolean getAnswerByQuestion(String questionID){
         return true;
     }
 
-    public String evaluate(){
+    private String evaluate(){
         return "string";
     }
 
     public void run(){
-
+        collectAnswers();
     }
 }
