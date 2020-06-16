@@ -1,4 +1,6 @@
-package org.example;
+package org.example.controller;
+
+import org.example.model.Fact;
 
 import java.util.ArrayList;
 import java.util.List;

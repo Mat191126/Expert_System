@@ -1,4 +1,8 @@
-package org.example;
+package org.example.controller;
+
+import org.example.controller.Container;
+import org.example.controller.Iterator;
+import org.example.model.Question;
 
 public class RuleRepository implements Container {
     public String[] questions = {"Q1", "Q2", "Q3"};

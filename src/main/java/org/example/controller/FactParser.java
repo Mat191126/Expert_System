@@ -1,5 +1,6 @@
-package org.example;
+package org.example.controller;
 
+import org.example.model.Fact;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
