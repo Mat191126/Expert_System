@@ -16,6 +16,6 @@ public class App
         ruleParser.loadXmlDocument("Rules.xml");
 
         ESProwider esProwider = new ESProwider(factParser, ruleParser);
-        esProwider.displayFacts();
+        esProwider.displayFactsDescription();
     }
 }

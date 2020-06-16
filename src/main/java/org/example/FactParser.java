@@ -27,29 +27,23 @@ public class FactParser extends XMLParser{
             document.getDocumentElement().normalize();
             NodeList elementList = document.getElementsByTagName("Fact");
 
-        for (int elementIndex = 0; elementIndex < elementList.getLength(); elementIndex++){
-            Node node = elementList.item(elementIndex);
+            for (int elementIndex = 0; elementIndex < elementList.getLength(); elementIndex++){
+                Node node = elementList.item(elementIndex);
 
-            if (node.getNodeType() != Node.ELEMENT_NODE) {
-                continue;
+                if (node.getNodeType() != Node.ELEMENT_NODE) {
+                    continue;
+                }
+                Element element = (Element) node;
+                String elementId = element.getAttribute("id");
+
+                Element subElement = (Element) element.getElementsByTagName("Description").item(0);
+                String elementDescription = subElement.getAttribute("value");
+
+                Fact fact = new Fact(elementId, elementDescription);
+                setFactValues(fact, element);
+                factRepository.addFact(fact);
+
             }
-
-            Element element = (Element) node;
-            String elementId = element.getAttribute("id");
-
-            Element subElement = (Element) element.getElementsByTagName("Description").item(0);
-            String elementDescription = subElement.getAttribute("value");
-
-            //System.out.println("ID: " + elementId);
-
-            //System.out.println("DESCRIPTION: " + elementDescription);
-
-            Fact fact = new Fact(elementId, elementDescription);
-            setFactValues(fact, element);
-            factRepository.addFact(fact);
-
-            //this.factRepository.addFact(fact);
-        }
         } catch (Exception e){
             System.out.println(e.getMessage());
         }

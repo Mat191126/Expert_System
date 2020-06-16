@@ -9,7 +9,7 @@ public class ESProwider {
         this.ruleParser = ruleParser;
     }
 
-    public void displayFacts() {
+    public void displayFactsDescription() {
         Iterator<Fact> factIterator = factParser.getFactRepository().getIterator();
         while (factIterator.hasNext()) {
             System.out.println(factIterator.next().getDescription());
@@ -20,7 +20,7 @@ public class ESProwider {
 
     }
 
-    public boolean getAnswerByQuestion(String qusetionID){
+    public boolean getAnswerByQuestion(String questionID){
         return true;
     }
 
