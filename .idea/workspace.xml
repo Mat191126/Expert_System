@@ -3,27 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="70768044-ed2d-40db-81ca-b4d45fc328e8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ESProwider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ESProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Answer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Container.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/ESProwider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/ESProwider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Fact.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/FactIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/FactParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/FactRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Iterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/MultipleValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Question.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/RuleParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/RuleRepository$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/RuleRepository$QuestionsIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/RuleRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Singlevalue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Value.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/XMLParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/RuleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/RuleRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +102,7 @@
       <workItem from="1589364785071" duration="599000" />
       <workItem from="1589381574542" duration="605000" />
       <workItem from="1590589719284" duration="1432000" />
-      <workItem from="1592294411331" duration="1318000" />
+      <workItem from="1592294411331" duration="2928000" />
     </task>
     <task id="LOCAL-00001" summary="Test commit">
       <created>1588862645286</created>
@@ -188,22 +168,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1592295489770" />
-    <state width="1807" height="214" key="GridCell.Tab.0.bottom" timestamp="1592295358998">
+    <state width="1807" height="213" key="GridCell.Tab.0.bottom" timestamp="1592295870630">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="214" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1592295358998" />
-    <state width="1807" height="214" key="GridCell.Tab.0.center" timestamp="1592295358996">
+    <state width="1807" height="213" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1592295870630" />
+    <state width="1807" height="213" key="GridCell.Tab.0.center" timestamp="1592295870628">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="214" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1592295358996" />
-    <state width="1807" height="214" key="GridCell.Tab.0.left" timestamp="1592295358995">
+    <state width="1807" height="213" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1592295870628" />
+    <state width="1807" height="213" key="GridCell.Tab.0.left" timestamp="1592295870627">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="214" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1592295358995" />
-    <state width="1807" height="214" key="GridCell.Tab.0.right" timestamp="1592295358997">
+    <state width="1807" height="213" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1592295870627" />
+    <state width="1807" height="213" key="GridCell.Tab.0.right" timestamp="1592295870629">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="214" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1592295358997" />
+    <state width="1807" height="213" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1592295870629" />
     <state x="444" y="98" key="SettingsEditor" timestamp="1588862130287">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
