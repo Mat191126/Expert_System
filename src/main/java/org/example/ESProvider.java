@@ -5,11 +5,11 @@ import org.example.controller.Iterator;
 import org.example.controller.RuleParser;
 import org.example.model.Fact;
 
-public class ESProwider {
+public class ESProvider {
     private FactParser factParser;
     private RuleParser ruleParser;
 
-    public ESProwider (FactParser factParser, RuleParser ruleParser){
+    public ESProvider (FactParser factParser, RuleParser ruleParser){
         this.factParser = factParser;
         this.ruleParser = ruleParser;
     }

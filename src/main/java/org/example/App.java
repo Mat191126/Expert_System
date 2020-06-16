@@ -18,7 +18,7 @@ public class App
         RuleParser ruleParser = new RuleParser();
         ruleParser.loadXmlDocument("Rules.xml");
 
-        ESProwider esProwider = new ESProwider(factParser, ruleParser);
-        esProwider.run();
+        ESProvider esProvider = new ESProvider(factParser, ruleParser);
+        esProvider.run();
     }
 }
