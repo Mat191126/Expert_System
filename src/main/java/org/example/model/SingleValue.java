@@ -2,7 +2,7 @@ package org.example.model;
 
 import java.util.List;
 
-public class Singlevalue extends Value{
+public class SingleValue extends Value{
     @Override
     public List<String> getInputPattern() {
         return null;
@@ -13,7 +13,7 @@ public class Singlevalue extends Value{
         return false;
     }
 
-    public Singlevalue(String param, boolean selectionType){
+    public SingleValue(String param, boolean selectionType){
 
     }
 }
