@@ -31,7 +31,7 @@
                 <MultipleValue value="red,orange,yellow,green,blue,purple,white,black"/>
             </Selection>
             <Selection value="false">
-                <MultipleValue value="doesn't matter"/>
+                <SingleValue value="doesn't matter"/>
             </Selection>
         </Answer>
     </Rule>
@@ -43,7 +43,7 @@
                 <MultipleValue value="South America,North America,Europe,Africa,Asia,Australia,Antarctica"/>
             </Selection>
             <Selection value="false">
-                <MultipleValue value="doesn't matter"/>
+                <SingleValue value="doesn't matter"/>
             </Selection>
         </Answer>
     </Rule>
